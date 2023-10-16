@@ -1,0 +1,118 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d79ad5;
+
+    
+   
+}
+.info{
+    display: flex;
+    flex-direction: row;    
+    margin: 30px;    
+    @media (max-width: 815px) {
+        margin: 0;           
+        font-size: 12px;
+        
+    } 
+    
+
+    &__list{
+        margin: 50px;    
+        list-style: none;  
+
+        @media (max-width: 815px) {
+            margin-right: 10px;                      
+        }    
+        @media (max-width: 673px) {
+            font-size: 10px;            
+        }
+        @media (max-width: 495px) {
+            margin: 10px;            
+        }
+
+       
+    }
+
+    &__produc{
+        list-style: none;
+        margin: 6px;
+        font-size: small;
+       @media (max-width: 673px) {
+            font-size: 8px;
+       }
+    }
+   
+}
+
+
+.descuento{    
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 5px rgb(255, 255, 255) ;    
+    padding-bottom: 30px;
+    margin: 30px;
+    @media(max-width: 815px){
+        margin: 0;
+    }
+
+    &__button{
+        place-items: center;
+        border-radius: 6px;
+        margin: 10px;
+        height: 50px;
+        width: 150px;     
+        background-color: violet;
+        transition: all .2s;
+    }
+
+    &__button:hover,
+    &__button:focus {
+          transform: scale(1.03) skewX(0);
+          transform-origin: bottom;
+          box-shadow: 0 7px 8px rgba(0,0,0, .05), 0 3px 3px rgba(0,0,0, .01); 
+    }                      
+    
+    &__span{
+        margin-bottom: 10px;
+    }
+
+}
+.footerend{ 
+    
+    height: 80px;
+    width: 100%;
+    color: black;
+    background-color: darkmagenta;
+    border-top: solid 5px rgb(255, 255, 255) ;
+    @media (max-width: 850px){
+        font-size: 12px;
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: row;   
+        justify-content: space-between; 
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        list-style: none;
+        font-size: smaller;   
+        @media (max-width: 850){
+            margin: 0;
+        }    
+       
+    }
+
+    &__marca{
+        text-align: center;
+        margin-top: 30px;
+        font-size: x-small;
+    } 
+    
+    
+}

@@ -1,0 +1,22 @@
+.section-cards {
+    background-color:#E3BDEE;
+    padding: 1em;
+
+}
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    background-color: #ecd4f3;
+ 
+  @media (min-width: 1023) {
+    & {
+      min-width: 769;
+    }
+    
+
+}
+}
+  

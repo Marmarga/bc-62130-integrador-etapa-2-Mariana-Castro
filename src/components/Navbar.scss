@@ -1,0 +1,31 @@
+.nav-bar {
+    background-color: #E3BDEE;
+  
+    &__nav-list {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+  
+      @media (max-width: 768px) {
+        & {
+          flex-direction: column;
+        }
+      }
+    }
+   
+  
+    &__nav-link {
+      display: block;
+      background-color: #E3BDEE;
+      color: #555454;
+      padding: 1em 2em;
+      padding-top: 30px;
+      text-decoration: none;
+    }
+  
+    @media (max-width: 768px) {
+      & {
+        display: none;
+      }
+    }
+  }

@@ -1,0 +1,82 @@
+.divCarrito{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #E3BDEE;
+    color: grey
+}
+table.tabla-carrito {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 1rem auto;
+    font-weight: bold;
+
+    th, td {
+        border: 3px solid  #E3BDEE;
+        padding: 8px;
+        text-align: left;
+        color: grey;
+    }
+
+    th {
+        background-color: #E3BDEE;
+    }
+
+}
+.noHayProductos{
+    height: 100px;
+}
+.linkCarrito{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+
+
+}
+.linkCarrito:hover{
+    transform-origin: bottom;
+    box-shadow: 0 7px 8px rgba(0,0,0, .05), 0 3px 3px rgba(0,0,0, .01); 
+    transform: scale(1.03) skewX(0);
+    background-color: #E3BDEE;   
+    color: grey;
+    border: solid 1px rgb(147, 146, 146);
+    padding: 2px;
+}
+.carritoBontonComprar{
+    place-items: center;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;     
+    background-color:  rgba(238, 130, 238, 0.662);
+    transition: all .2s;   
+    color: rgb(92, 92, 92);  
+    font-weight: 700; 
+
+    &:hover,
+    &:focus {
+        transform: scale(1.03) skewX(0);
+        transform-origin: bottom;
+        box-shadow: 0 7px 8px rgba(0,0,0, .05), 0 3px 3px rgba(0,0,0, .01); 
+
+    }
+}
+.carritoEliminar{
+    place-items: center;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;     
+    background-color:  rgba(238, 130, 238, 0.662);
+    transition: all .2s;   
+    color: rgb(92, 92, 92);  
+    font-weight: 700;
+
+    &:hover,
+    &:focus{
+        transform: scale(1.03) skewX(0);
+        transform-origin: bottom;
+        box-shadow: 0 7px 8px rgba(0,0,0, .05), 0 3px 3px rgba(0,0,0, .01); 
+
+    }
+
+}
+

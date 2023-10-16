@@ -1,0 +1,29 @@
+
+.altaCaja{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #E3BDEE;  
+
+}
+.contenerdorEdicion{
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.altaTitulo{   
+    color:grey;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+
+    &__altaSubtitulo {
+        color:grey;
+        margin-bottom: 20px;
+    }
+    
+}
